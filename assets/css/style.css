@@ -1,0 +1,157 @@
+/*sets the border settings for all elements*/
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+/*sets the background color of the webpage*/
+body {
+background-color: #d9dcd6;
+}
+
+/*sets the placement of the header text, font style, background color, and default text color*/
+.header {
+padding: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: #2a607c;
+color: #fff;
+}
+
+/*sets the placement and font size of the header text*/
+.header h1 {
+display: inline-block;
+font-size: 48px;
+}
+
+/*sets the color for specific letters in the header text*/
+.header h1 .alt-color-header-text {
+color: #d9dcd6;
+}
+
+/*sets the positioning and the size of the header text*/
+.header nav {
+padding-top: 15px;
+margin-right: 20px;
+float: right;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+
+/*sets the positioning of the text in the top navigation bar*/
+.header nav ul li {
+display: inline-block;
+margin-left: 25px;
+list-style-type: none;
+}
+
+/*sets the color of the text in the header and ensures it does not change color after clicking*/
+a {
+color: #fff;
+text-decoration: none;
+}
+
+/*sets the size and position of the main background image. */
+.backgroundimage {
+height: 800px;
+width: 100%;
+margin-bottom: 25px;
+background-size: cover;
+background-position: center;
+}
+
+/*sets the positioning of the Article elements that are anchored to the left side. */
+.article-float-left {
+float:left;
+margin-right:25px;
+}
+
+/*sets the positioning of the Article elements that are anchored to the right side. */
+.article-float-right {
+float:right;
+margin-left:25px;
+}
+
+/*sets the position of the article elements within the block*/
+.content {
+width:75%;
+display:inline-block;
+margin-left:20px;
+}
+
+/*sets the font style, size, color of the three main article elements*/
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+margin-bottom:20px;
+height:300px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:#0072bb;
+color:#fff;
+padding:50px;
+}
+
+/*sets the image size of the images in the three main article elements*/
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+max-height:200px;
+}
+
+/*sets the position and size of the article element header text inside the boxes*/
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+margin-bottom:20px;
+font-size:36px;
+}
+
+/*sets the box position, colors, and fonts for the aside elements*/
+.aside-benefits {
+margin-right:20px;
+clear:both;
+float:right;
+width:20%;
+height:100%;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:#2589bd;
+padding:20px;
+}
+
+/*sets the positioning and the font color of the figure elements within the aside*/
+.figure-benefit-lead,
+.figure-benefit-brand,
+.figure-benefit-cost {
+margin-bottom:32px;
+color:#fff;
+}
+
+/*sets the positioning of the headers within the figure elements in the aside*/
+.figure-benefit-lead h3,
+.figure-benefit-brand h3,
+.figure-benefit-cost h3 {
+margin-bottom:10px;
+text-align:center;
+}
+
+/*sets the image properties within the figure elements in the aside*/
+.figure-benefit-lead img,
+.figure-benefit-brand img,
+.figure-benefit-cost img {
+display:block;
+max-width:150px;
+margin:10px auto;
+}
+
+/*sets the footer positioning, font size and font text*/
+.footer {
+padding: 30px;
+clear: both;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+font-size: 20px;
+}
+/*sets the font size for the copyright information at the bottom of the page*/
+p {
+font-size: 16px;
+}
