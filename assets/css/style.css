@@ -51,7 +51,7 @@ color: #fff;
 text-decoration: none;
 }
 
-/*sets the size and position of the main background image. */
+/*sets the size and position of the main background, hero, image. */
 .backgroundimage {
 height: 800px;
 width: 100%;
@@ -60,29 +60,27 @@ background-size: cover;
 background-position: center;
 }
 
-/*sets the positioning of the Article elements that are anchored to the left side. */
-.article-float-left {
+/*sets the positioning of the Section elements that are anchored to the left side. */
+.section-float-left {
 float:left;
 margin-right:25px;
 }
 
-/*sets the positioning of the Article elements that are anchored to the right side. */
-.article-float-right {
+/*sets the positioning of the Section elements that are anchored to the right side. */
+.section-float-right {
 float:right;
 margin-left:25px;
 }
 
-/*sets the position of the article elements within the block*/
+/*sets the position of the section elements within the block*/
 .content {
 width:75%;
 display:inline-block;
 margin-left:20px;
 }
 
-/*sets the font style, size, color of the three main article elements*/
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+/*sets the font style, size, color of the three main section elements*/
+main section {
 margin-bottom:20px;
 height:300px;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -91,17 +89,13 @@ color:#fff;
 padding:50px;
 }
 
-/*sets the image size of the images in the three main article elements*/
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+/*sets the image size of the images in the three main section elements*/
+main img {
 max-height:200px;
 }
 
-/*sets the position and size of the article element header text inside the boxes*/
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+/*sets the position and size of the section element header text inside the boxes*/
+main h2 {
 margin-bottom:20px;
 font-size:36px;
 }
@@ -118,33 +112,27 @@ background-color:#2589bd;
 padding:20px;
 }
 
+/*sets the image properties within the figure elements in the aside*/
+.aside-benefits img {
+    display:block;
+    max-width:150px;
+    margin:10px auto;
+}
+
 /*sets the positioning and the font color of the figure elements within the aside*/
-.figure-benefit-lead,
-.figure-benefit-brand,
-.figure-benefit-cost {
-margin-bottom:32px;
-color:#fff;
+.aside-benefits figure {
+    margin-bottom:32px;
+    color:#fff;
 }
 
 /*sets the positioning of the headers within the figure elements in the aside*/
-.figure-benefit-lead h3,
-.figure-benefit-brand h3,
-.figure-benefit-cost h3 {
-margin-bottom:10px;
-text-align:center;
-}
-
-/*sets the image properties within the figure elements in the aside*/
-.figure-benefit-lead img,
-.figure-benefit-brand img,
-.figure-benefit-cost img {
-display:block;
-max-width:150px;
-margin:10px auto;
+.aside-benefits figure h3 {
+    margin-bottom:10px;
+    text-align:center;
 }
 
 /*sets the footer positioning, font size and font text*/
-.footer {
+footer {
 padding: 30px;
 clear: both;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
