@@ -12,7 +12,7 @@ The code was refactored by:
   
   Below is a screenshot of the page.
  
-
+!Screenshot(https://github.com/sobe1290/Module1Challenge/blob/Main/assets/images/sobe1290.github.io_Module1Challenge_.png?raw=true)
 
  
  The webpage can be viewed at the Github Live page below:
